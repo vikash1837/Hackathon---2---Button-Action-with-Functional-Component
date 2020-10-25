@@ -8,7 +8,7 @@ function App() {
   }
   return (
     <div id="main">
-       <p>{para}</p>
+       <p id="para">{para}</p>
       <button id="click" onClick={Addpara}>button</button>
       // Do not alter the main div
     </div>
