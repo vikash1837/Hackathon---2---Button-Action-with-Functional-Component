@@ -4,7 +4,7 @@ import "./../styles/App.css";
 function App() {
   const[para,setPara]=useState("");
   function Addpara(){
-    setPara("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy");
+    setPara(<p>Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>);
   }
   return (
     <div id="main">
